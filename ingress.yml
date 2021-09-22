@@ -5,10 +5,8 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  tls:
   - hosts:
     - springboot.gautham.com
-    secretName: spring-tls
   rules:
   - host: springboot.gautham.com 
     http:
